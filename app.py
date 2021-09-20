@@ -8,7 +8,7 @@ my_idname = os.getenv('my_idname')
 from Adafruit_IO import Client
 aio = Client('my_idname','secret_key')
 
-from telegram.ext import Updater, MessageHandler, Filters
+from telegram.ext import Updater, MessageHandler, Filters      
 
 def demo1(bot,update):
   chat_id = bot.message.chat_id
